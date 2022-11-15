@@ -12,7 +12,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Welcome to BHCCS2k21</title>
         <meta name="description" content="Technical Symposium being conducted by CS dept (Shift I)" />
