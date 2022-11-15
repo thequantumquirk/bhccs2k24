@@ -34,7 +34,6 @@ const useStyles = createStyles((theme) => ({
 
     '@media (max-width: 520px)': {
       fontSize: 20,
-      textAlign: 'left',
     },
   },
 
@@ -45,13 +44,13 @@ const useStyles = createStyles((theme) => ({
     paddingLeft: theme.spacing.md,
     paddingRight: theme.spacing.md,
     color: theme.white,
-    marginBottom: theme.spacing.xs,
+    marginTop: theme.spacing.xl,
+    marginBottom: theme.spacing.xl,
     textAlign: 'center',
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 
     '@media (max-width: 520px)': {
       fontSize: 28,
-      textAlign: 'left',
     },
   },
 
@@ -65,7 +64,6 @@ const useStyles = createStyles((theme) => ({
 
     '@media (max-width: 520px)': {
       fontSize: theme.fontSizes.md,
-      textAlign: 'left',
     },
   },
 
