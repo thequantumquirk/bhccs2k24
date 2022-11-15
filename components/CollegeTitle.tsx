@@ -4,11 +4,15 @@ import styles from "../styles/CollegeTitle.module.css";
 
 const CollegeTitle = () => {
   return (
-    <Container>
+    <div style={{
+      background: "#013e6a",
+    }}>
       <div style={{
         display: "flex",
         flexDirection: "row",
-        justifyContent: "center"
+        justifyContent: "center",
+        padding: "20px",
+        color: "white"
       }}>
         <Image
           src={"/bhclogo.png"} alt="BHC college logo"
@@ -23,7 +27,7 @@ const CollegeTitle = () => {
           <Text>College of Excellence</Text>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

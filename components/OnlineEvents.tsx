@@ -9,7 +9,7 @@ const OnlineEvents = () => {
 
   return (
     <div>
-      <Container>
+      <Container style={{marginTop: "50px"}}>
         <h2 style={{textAlign: "center"}}>Online Events</h2>
       
         <Grid>

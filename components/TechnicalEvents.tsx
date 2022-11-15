@@ -9,7 +9,7 @@ const TechnicalEvents = () => {
 
   return (
     <div>
-      <Container>
+      <Container style={{marginTop: "50px"}}>
         <h2 style={{textAlign: "center"}}>Technical Events</h2>
       
         <Grid>

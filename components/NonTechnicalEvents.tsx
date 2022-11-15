@@ -9,7 +9,7 @@ const NonTechnicalEvents = () => {
 
   return (
     <div>
-      <Container>
+      <Container style={{marginTop: "50px"}}>
         <h2 style={{textAlign: "center"}}>Non-Technical Events</h2>
       
         <Grid>
