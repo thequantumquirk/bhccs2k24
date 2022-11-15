@@ -1,4 +1,5 @@
 import { Title, Text, Container, Button, Overlay, createStyles, Image } from '@mantine/core';
+import heroStyles from "../styles/Hero.module.css";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -50,7 +51,7 @@ const useStyles = createStyles((theme) => ({
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 
     '@media (max-width: 520px)': {
-      fontSize: 28,
+      fontSize: 35,
     },
   },
 
@@ -144,9 +145,14 @@ const Hero = () => {
           </Text>
         </Container>
 
-        <Title size={"xl"} className={classes.symposium_name}>
-            Symposium Name
-        </Title>
+        <Container style={{
+          textAlign: "center",
+          fontSize: 50,
+        }}>
+          <h1 className={heroStyles.neonText}>
+            PlaceHolder
+          </h1>
+        </Container>
 
         <div className={classes.controls}>
           <Button className={classes.control} variant="white" size="lg">
