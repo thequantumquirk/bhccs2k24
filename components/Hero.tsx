@@ -1,10 +1,10 @@
-import { Title, Text, Container, Button, Overlay, createStyles } from '@mantine/core';
+import { Title, Text, Container, Button, Overlay, createStyles, Image } from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
     position: 'relative',
-    paddingTop: 180,
-    paddingBottom: 130,
+    paddingTop: 60,
+    paddingBottom: 40,
     backgroundImage:
       'url(https://unsplash.com/photos/vEE00Hx5d0Q/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY4NTE1Njg2&force=true&w=1920)',
     backgroundSize: 'cover',
@@ -39,7 +39,7 @@ const useStyles = createStyles((theme) => ({
 
   symposium_name: {
     fontWeight: 800,
-    fontSize: 40,
+    fontSize: 50,
     letterSpacing: -1,
     paddingLeft: theme.spacing.md,
     paddingRight: theme.spacing.md,
@@ -113,8 +113,29 @@ const Hero = () => {
       <Overlay color="#000" opacity={0.65} zIndex={1} />
 
       <div className={classes.inner}>
+
+        <div style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center"
+            }}>
+          <Image
+            src={"/bhclogo.png"} alt="BHC college logo"
+            width={80}
+            height={100}
+            />
+        </div>
+
+        <Title className={classes.title}>
+          Bishop Heber College
+        </Title>
+
         <Title className={classes.title}>
           Department of Computer Science
+        </Title>
+
+        <Title className={classes.title}>
+          Shift - I
         </Title>
 
         <Container size={640}>
