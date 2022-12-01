@@ -1,4 +1,5 @@
 import { Title, Text, Container, Button, Overlay, createStyles, Image } from '@mantine/core';
+import { useRouter } from 'next/router';
 import heroStyles from "../styles/Hero.module.css";
 
 const useStyles = createStyles((theme) => ({
@@ -108,6 +109,7 @@ const useStyles = createStyles((theme) => ({
 
 const Hero = () => {
   const { classes, cx } = useStyles();
+  const router = useRouter();
 
   return (
     <div className={classes.wrapper}>
@@ -155,7 +157,7 @@ const Hero = () => {
         </Container>
 
         <div className={classes.controls}>
-          <Button className={classes.control} variant="white" size="lg">
+          <Button className={classes.control} onClick={() => router.push('/register')} variant="white" size="lg">
             Register
           </Button>
           <Button className={cx(classes.control, classes.secondaryControl)} size="lg">
