@@ -1,5 +1,6 @@
 import { Button, createStyles, FileInput, MantineProvider, PasswordInput, Stack, Text, TextInput } from '@mantine/core';
 import { Plus, Send, Share } from 'tabler-icons-react';
+import StudentForm from '../components/StudentForm';
 import StudentList from '../components/StudentList';
 
 const useStyles = createStyles((theme) => ({
@@ -67,7 +68,7 @@ export default function Home() {
             <h4>Student Details</h4>
             <StudentList />
             <div className={classes.controls}>
-                <Button variant='light' leftIcon={<Plus />} className={cx(classes.control)}>Add Student</Button>
+                <StudentForm />
                 <Button leftIcon={<Send />} className={classes.control}>Submit</Button>
             </div>
         </div>
