@@ -1,24 +1,43 @@
-import { ActionIcon, Button, ScrollArea, Table } from "@mantine/core";
+import { ActionIcon, Badge, Button, createStyles, ScrollArea, Table } from "@mantine/core";
 import { Edit, Sun, Trash } from "tabler-icons-react";
 import styles from "../styles/StudentList.module.css";
 
 const StudentList = () => {
-    const elements = [
-        { position: 6, mass: 12.011, symbol: 'C', name: 'Carbon' },
-        { position: 7, mass: 14.007, symbol: 'N', name: 'Nitrogen' },
-        { position: 39, mass: 88.906, symbol: 'Y', name: 'Yttrium' },
-        { position: 56, mass: 137.33, symbol: 'Ba', name: 'Barium' },
-        { position: 58, mass: 140.12, symbol: 'Ce', name: 'Cerium' },
+    const students = [
+        { name: "Seneca",
+          events: [
+            {id: 1, name: "Debugging"},
+            {id: 2, name: "Treasure Hunt"}
+          ],
+          email: 'seneca@gmail.com',
+          phone: '9876543210' },
+          { name: "Marcus Aurelius",
+          events: [
+            {id: 1, name: "Debugging"},
+            {id: 2, name: "Treasure Hunt"},
+            {id: 3, name: "Spelling Bee"},
+            {id: 3, name: "Spelling Bee"},
+          ],
+          email: 'marcus.aurelius@gmail.com',
+          phone: '9876543210' },
     ];
     
-    const rows = elements.map((element) => (
-        <tr key={element.name}>
-          <td>{element.position}</td>
-          <td>{element.name}</td>
-          <td>{element.symbol}</td>
-          <td>{element.mass}</td>
+    const rows = students.map((stud) => (
+        <tr key={stud.phone}>
+          <td>{stud.name}</td>
+          <td>{stud.email}</td>
+          <td>{stud.phone}</td>
+          <td
+            style={{maxWidth: "200px"}}
+          >{stud.events.map((ev) => (
+                <Badge key={ev.id}>{ev.name}</Badge>)
+              )}</td>
           <td>
-            <div>
+            <div style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center"
+            }}>
                 <ActionIcon variant="subtle" style={{display: "inline"}}><Edit /></ActionIcon>
                 <ActionIcon variant="subtle" style={{display: "inline", marginLeft: "20px"}}><Trash /></ActionIcon>
             </div>
