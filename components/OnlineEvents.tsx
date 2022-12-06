@@ -1,4 +1,4 @@
-import styles from "../styles/NonTechnicalEvents.module.css";
+import styles from "../styles/OnlineEvents.module.css";
 
 const OnlineEvents = () => {
   const bugSmashing = {

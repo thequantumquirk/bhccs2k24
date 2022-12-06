@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background: #ebf5fc;
+    background: #232427;
     padding: 30px 0;
 }
 
@@ -26,10 +26,10 @@
     position: relative;
     width: 330px;
     height: 280px;
-    /* box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
-                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
-                5px 5px 5px rgba(0, 0, 0, 0.05),
-                -5px -5px 5px rgba(255, 255, 255, 0.5); */
+    /* box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.1),
+                5px 5px 5px rgba(0, 0, 0, 0.3),
+                -5px -5px 5px rgba(255, 255, 255, 0.1); */
     border-radius: 15px;
     margin: 15px;
 }
@@ -40,8 +40,8 @@
     right: 20px;
     bottom: 20px;
     left: 20px;
-    background: #ebf5fc;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: #2a2b2f;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@
     top: -130px;
     right: 10px;
     font-size: 8em;
-    color: rgba(0, 0, 0, 0.02);
+    color: rgba(255, 255, 255, 0.05);
     transition: 0.5s;
     pointer-events: none;
 }
@@ -76,7 +76,7 @@
 
 .container .card .box .content h3 {
     font-size: 1.5em;
-    color: #777;
+    color: rgba(255, 255, 255, 0.5);
     z-index: 1;
     transition: 0.5s;
 }
