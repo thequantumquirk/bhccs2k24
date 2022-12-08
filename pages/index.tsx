@@ -25,7 +25,7 @@ export default function Home() {
       <NonTechnicalEvents />
       <OnlineEvents />
       <Registration />
-      <ContactUs />
+      {/* <ContactUs /> */}
     </div>
   );
 }
