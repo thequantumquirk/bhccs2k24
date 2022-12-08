@@ -1,15 +1,6 @@
-import {
-  Button,
-  createStyles,
-  FileInput,
-  MantineProvider,
-  PasswordInput,
-  Stack,
-  Text,
-  TextInput,
-} from "@mantine/core";
+import { Button, createStyles, Stack, TextInput } from "@mantine/core";
 import { useState } from "react";
-import { Plus, Send, Share } from "tabler-icons-react";
+import { Plus, Send } from "tabler-icons-react";
 import StudentFormModal from "../components/StudentFormModal";
 import StudentList from "../components/StudentList";
 
@@ -61,7 +52,7 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-export default function Home() {
+export default function Register() {
   const { classes, cx } = useStyles();
   const [opened, setOpened] = useState(false);
 

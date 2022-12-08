@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/TechnicalEvents.module.css";
 
 const TechnicalEvents = () => {
@@ -16,7 +17,9 @@ const TechnicalEvents = () => {
               <h2>01</h2>
               <h3>Bug Smashing</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#bug-smashing" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -27,7 +30,9 @@ const TechnicalEvents = () => {
               <h2>02</h2>
               <h3>Paperix</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#paperix" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -38,7 +43,9 @@ const TechnicalEvents = () => {
               <h2>03</h2>
               <h3>Quizzy</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#quizzy" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -49,7 +56,9 @@ const TechnicalEvents = () => {
               <h2>04</h2>
               <h3>Color Castel</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#color-castel" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -60,7 +69,9 @@ const TechnicalEvents = () => {
               <h2>05</h2>
               <h3>Andro Design</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#andro-design" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>

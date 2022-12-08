@@ -1,13 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import CollegeTitle from "../components/CollegeTitle";
-import ContactUs from "../components/ContactUs";
 import Hero from "../components/Hero";
 import NonTechnicalEvents from "../components/NonTechnicalEvents";
 import OnlineEvents from "../components/OnlineEvents";
 import Registration from "../components/Registration";
 import TechnicalEvents from "../components/TechnicalEvents";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (

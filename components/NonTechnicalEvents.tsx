@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styles from "../styles/NonTechnicalEvents.module.css";
 
@@ -17,7 +18,9 @@ const NonTechnicalEvents = () => {
               <h2>01</h2>
               <h3>The Brain Hunt</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#brain-hunt" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -28,7 +31,9 @@ const NonTechnicalEvents = () => {
               <h2>02</h2>
               <h3>Connectiva</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#connectiva" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -39,7 +44,9 @@ const NonTechnicalEvents = () => {
               <h2>03</h2>
               <h3>Portmantaeu</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#portmantaeu" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -50,7 +57,9 @@ const NonTechnicalEvents = () => {
               <h2>04</h2>
               <h3>Dumb C</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#dumb-c" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>

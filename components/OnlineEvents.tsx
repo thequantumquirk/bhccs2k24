@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/OnlineEvents.module.css";
 
 const OnlineEvents = () => {
@@ -16,7 +17,9 @@ const OnlineEvents = () => {
               <h2>01</h2>
               <h3>Logo Design</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#logo-design" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -27,7 +30,9 @@ const OnlineEvents = () => {
               <h2>02</h2>
               <h3>Multimedia</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#multimedia" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -38,7 +43,9 @@ const OnlineEvents = () => {
               <h2>03</h2>
               <h3>Meme Creation</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#meme-creation" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -49,7 +56,9 @@ const OnlineEvents = () => {
               <h2>04</h2>
               <h3>Capture it</h3>
               <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <a href="#">Read More</a>
+              <Link href="/rules#capture-it" legacyBehavior>
+                <a>Read More</a>
+              </Link>
             </div>
           </div>
         </div>
