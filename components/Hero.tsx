@@ -141,15 +141,20 @@ const Hero = () => {
 
         <Title className={classes.title}>Bishop Heber College</Title>
 
-        <Title className={classes.title}>Department of Computer Science</Title>
+        <Title className={classes.title}>
+          Department of Computer Science (SHIFT - I)
+        </Title>
+        <Title className={classes.title}>proudly presents</Title>
 
-        <Title className={classes.title}>Shift - I</Title>
+        <Title className={classes.title}>
+          A Heberian Inter-Collegiate Technical Symposium
+        </Title>
 
-        <Container size={640}>
+        {/* <Container size={640}>
           <Text size="lg" className={classes.description}>
             Proudly presents a state level Technical Symposium
           </Text>
-        </Container>
+        </Container> */}
 
         <Container
           style={{
