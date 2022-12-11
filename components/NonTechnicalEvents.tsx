@@ -17,7 +17,7 @@ const NonTechnicalEvents = () => {
             <div className={styles.content}>
               <h2>01</h2>
               <h3>The Brain Hunt</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
+              <p>Clear vision holds the key</p>
               <Link href="/rules#brain-hunt" legacyBehavior>
                 <a>Read More</a>
               </Link>
@@ -30,7 +30,7 @@ const NonTechnicalEvents = () => {
             <div className={styles.content}>
               <h2>02</h2>
               <h3>Connectiva</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
+              <p>Not just nearly connect, but really connect</p>
               <Link href="/rules#connectiva" legacyBehavior>
                 <a>Read More</a>
               </Link>

@@ -42,7 +42,7 @@ const TechnicalEvents = () => {
             <div className={styles.content}>
               <h2>03</h2>
               <h3>Quizzy</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
+              <p>Unlocking knowledge at the speed of thought</p>
               <Link href="/rules#quizzy" legacyBehavior>
                 <a>Read More</a>
               </Link>
@@ -68,7 +68,7 @@ const TechnicalEvents = () => {
             <div className={styles.content}>
               <h2>05</h2>
               <h3>Andro Design</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
+              <p>Bring out the best</p>
               <Link href="/rules#andro-design" legacyBehavior>
                 <a>Read More</a>
               </Link>

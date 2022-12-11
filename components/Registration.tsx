@@ -16,7 +16,7 @@ const Registration = () => {
 
         <div className={styles.regRuleContainer}>
           <p>Registration can only be done online</p>
-          <a href="#">Register</a>
+          <a href="https://forms.gle/RhncJLaep6g2PYw87">Register</a>
         </div>
       </div>
     </div>

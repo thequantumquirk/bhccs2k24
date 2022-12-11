@@ -1,25 +1,31 @@
-import { Card, Text, createStyles } from "@mantine/core";
+import Link from "next/link";
 
-const useStyles = createStyles((theme) => ({
-    eventCard: {
-        background: theme.fn.linearGradient(45, '#3457D5', '#00BFFF'),
-    },
-    eventTitle: {
-        color: "white"
-    },
-    eventDescription: {
-        color: "white"
-    }
-}));
-
-const EventCard = ({ event } : { event : any }) => {
-  const { classes, cx } = useStyles();
+const EventCard = ({
+  eventId,
+  name,
+  tagLine,
+  navigateTo,
+}: {
+  eventId: number;
+  name: string;
+  tagLine: string;
+  navigateTo: string;
+}) => {
+  const prependZero = (num: number) => (num < 10 ? "0" + num : num);
 
   return (
-    <Card className={classes.eventCard} shadow="sm" p="lg" radius="md" withBorder style={{minHeight: "100px"}}>
-        <Text className={classes.eventTitle} size={"xl"} weight={500}>{ event.title }</Text>
-        <Text className={classes.eventDescription} size="md" color="dimmed">{ event.description }</Text>
-    </Card>
+    <div className="card">
+      <div className="box">
+        <div className="content">
+          <h2>{prependZero(eventId)}</h2>
+          <h3>{name}</h3>
+          <p>{tagLine}</p>
+          <Link href={navigateTo} legacyBehavior>
+            <a>Read More</a>
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 };
 

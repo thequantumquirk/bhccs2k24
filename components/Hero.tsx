@@ -163,7 +163,7 @@ const Hero = () => {
         <div className={classes.controls}>
           <Button
             className={classes.control}
-            onClick={() => router.push("/register")}
+            onClick={() => router.push("https://forms.gle/RhncJLaep6g2PYw87")}
             variant="white"
             size="lg"
           >
