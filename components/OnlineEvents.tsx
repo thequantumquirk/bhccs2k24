@@ -2,11 +2,6 @@ import Link from "next/link";
 import styles from "../styles/OnlineEvents.module.css";
 
 const OnlineEvents = () => {
-  const bugSmashing = {
-    title: "#1 Bug Smashing",
-    description: "This is some catch-phrase regarding Bug Smashing",
-  };
-
   return (
     <div className={styles.parent}>
       <h2 className={styles.eventHeader}>Online Events</h2>

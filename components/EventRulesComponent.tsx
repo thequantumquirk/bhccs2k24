@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 export interface EventRulesComponentProps {
   title: string;
   rules: string[];
-  id: string;
+  id: Number;
 }
 
 const EventRulesComponent: FunctionComponent<EventRulesComponentProps> = (

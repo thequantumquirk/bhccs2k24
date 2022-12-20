@@ -1,94 +1,55 @@
 import React from "react";
-import EventRulesComponent, {
-  EventRulesComponentProps,
-} from "../components/EventRulesComponent";
+import DumbStruck from "../components/nontechnicalEventRuleCards/DumbStruck";
+import HustleHour from "../components/nontechnicalEventRuleCards/HustleHour";
+import PixLink from "../components/nontechnicalEventRuleCards/PixLink";
+import TimesUp from "../components/nontechnicalEventRuleCards/TimesUp";
+import CrazeFabr from "../components/onlineEventRuleCards/CrazeFabr";
+import Insignia from "../components/onlineEventRuleCards/Insignia";
+import MediaRaft from "../components/onlineEventRuleCards/MediaRaft";
+import OnlineEventGeneralRules from "../components/onlineEventRuleCards/OnlineEventGeneralRules";
+import Photostratus from "../components/onlineEventRuleCards/Photostratus";
+import AndroDesign from "../components/technicalEventRuleCards/AndroDesign";
+import Bewilder from "../components/technicalEventRuleCards/Bewilder";
+import BugSlayers from "../components/technicalEventRuleCards/BugSlayers";
+import ColorCastle from "../components/technicalEventRuleCards/ColorCastle";
+import Paperix from "../components/technicalEventRuleCards/Paperix";
 
 const Rules = () => {
-  const rules: EventRulesComponentProps[] = getEventRules();
-
   return (
-    <div>
-      <h1 style={{ textAlign: "center" }}>Rules for Events!</h1>
-      {rules.map((rule) => (
-        <EventRulesComponent
-          key={rule.id}
-          title={rule.title}
-          rules={rule.rules}
-          id={rule.id}
-        />
-      ))}
+    <div
+      style={{
+        maxWidth: "600px",
+        padding: "5px 20px",
+        alignItems: "center",
+        margin: "auto",
+      }}
+    >
+      <h1 className="pageTitle">Hybernetix 2k23 - Event Rules</h1>
+      <div>
+        <h2>Technical Events</h2>
+        <BugSlayers />
+        <Paperix />
+        <Bewilder />
+        <ColorCastle />
+        <AndroDesign />
+      </div>
+      <div>
+        <h2>Non-Technical Events</h2>
+        <HustleHour />
+        <PixLink />
+        <TimesUp />
+        <DumbStruck />
+      </div>
+      <div>
+        <h2>Online Events</h2>
+        <OnlineEventGeneralRules />
+        <MediaRaft />
+        <CrazeFabr />
+        <Photostratus />
+        <Insignia />
+      </div>
     </div>
   );
 };
-
-function getEventRules(): EventRulesComponentProps[] {
-  return [
-    {
-      title: "Bug Smashing",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "bug-smashing",
-    },
-    {
-      title: "Paperix",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "paperix",
-    },
-    {
-      title: "Quizzy",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "quizzy",
-    },
-    {
-      title: "Color Castel",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "color-castel",
-    },
-    {
-      title: "Andro Design",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "andro-design",
-    },
-    {
-      title: "The Brain Hunt",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "brain-hunt",
-    },
-    {
-      title: "Connectiva",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "connectiva",
-    },
-    {
-      title: "Portmantaeu",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "portmantaeu",
-    },
-    {
-      title: "Dumb C",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "dumb-c",
-    },
-    {
-      title: "Logo Design",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "logo-design",
-    },
-    {
-      title: "Multimedia",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "multimedia",
-    },
-    {
-      title: "Meme Creation",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "meme-creation",
-    },
-    {
-      title: "Capture It",
-      rules: ["This Rule #1", "This Rule #2", "This Rule #3", "This Rule #4"],
-      id: "capture-it",
-    },
-  ];
-}
 
 export default Rules;

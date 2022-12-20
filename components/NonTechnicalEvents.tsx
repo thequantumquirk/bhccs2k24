@@ -3,11 +3,6 @@ import React from "react";
 import styles from "../styles/NonTechnicalEvents.module.css";
 
 const NonTechnicalEvents = () => {
-  const bugSmashing = {
-    title: "#1 Bug Smashing",
-    description: "This is some catch-phrase regarding Bug Smashing",
-  };
-
   return (
     <div className={styles.parent}>
       <h2 className={styles.eventHeader}>Non-Technical Events</h2>
