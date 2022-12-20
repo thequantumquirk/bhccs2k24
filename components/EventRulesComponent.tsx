@@ -18,7 +18,7 @@ const EventRulesComponent: FunctionComponent<EventRulesComponentProps> = (
         margin: "auto",
       }}
     >
-      <h1 id={prop.id}>{prop.title}</h1>
+      <h1>{prop.title}</h1>
       <ul>
         {prop.rules.map((rule, i) => (
           <li key={i}>{rule}</li>
