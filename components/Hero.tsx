@@ -147,7 +147,7 @@ const Hero = () => {
         <Title className={classes.title}>proudly presents</Title>
 
         <Title className={classes.title}>
-          A Heberian Inter-Collegiate Technical Symposium
+          A State Level Technical Symposium
         </Title>
 
         {/* <Container size={640}>
@@ -162,7 +162,7 @@ const Hero = () => {
             fontSize: 50,
           }}
         >
-          <h1 className={heroStyles.neonText}>PlaceHolder</h1>
+          <h1 className={heroStyles.neonText}>Hybernetix 2k23</h1>
         </Container>
 
         <div className={classes.controls}>
