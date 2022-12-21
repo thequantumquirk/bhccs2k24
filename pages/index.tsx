@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ContactUs from "../components/ContactUs";
 import Hero from "../components/Hero";
 import NonTechnicalEvents from "../components/NonTechnicalEvents";
 import OnlineEvents from "../components/OnlineEvents";
@@ -21,7 +22,7 @@ export default function Home() {
       <NonTechnicalEvents />
       <OnlineEvents />
       <Registration />
-      {/* <ContactUs /> */}
+      <ContactUs />
     </div>
   );
 }
