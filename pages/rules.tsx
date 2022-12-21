@@ -8,6 +8,7 @@ import Insignia from "../components/onlineEventRuleCards/Insignia";
 import MediaRaft from "../components/onlineEventRuleCards/MediaRaft";
 import OnlineEventGeneralRules from "../components/onlineEventRuleCards/OnlineEventGeneralRules";
 import Photostratus from "../components/onlineEventRuleCards/Photostratus";
+import RulesCoordinators from "../components/RulesCoordinators";
 import AndroDesign from "../components/technicalEventRuleCards/AndroDesign";
 import Bewilder from "../components/technicalEventRuleCards/Bewilder";
 import BugSlayers from "../components/technicalEventRuleCards/BugSlayers";
@@ -48,6 +49,7 @@ const Rules = () => {
         <Photostratus />
         <Insignia />
       </div>
+      <RulesCoordinators />
     </div>
   );
 };
