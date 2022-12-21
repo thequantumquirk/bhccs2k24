@@ -11,6 +11,7 @@
     align-items: center;
     background: #ebf5fc;
     padding: 30px 10px 60px 10px;
+    color: #42424a;
 }
 
 .container h4 {
@@ -35,6 +36,7 @@
 .card .name {
     font-weight: bold;
     margin: 5px;
+    
 }
 
 .card .phone {
