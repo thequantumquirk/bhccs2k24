@@ -2,7 +2,7 @@ import React from "react";
 
 const ColorCastle = () => {
   return (
-    <div>
+    <div id="color-castle">
       <h3>4. Color Castle (Web Design):-</h3>
       <ul>
         <li>Two members per team.</li>

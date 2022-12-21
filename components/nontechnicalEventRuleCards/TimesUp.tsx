@@ -2,7 +2,7 @@ import React from "react";
 
 const TimesUp = () => {
   return (
-    <div>
+    <div id="times-up">
       <h3>3. TimesUp (Just a Minute):-</h3>
       <ul>
         <li>Individual Participation.</li>

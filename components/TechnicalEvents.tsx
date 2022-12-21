@@ -10,9 +10,9 @@ const TechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>01</h2>
-              <h3>Bug Smashing</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#bug-smashing" legacyBehavior>
+              <h3>Bug Slayers</h3>
+              <p>Debugging</p>
+              <Link href="/rules#bug-slayers" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -23,9 +23,9 @@ const TechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>02</h2>
-              <h3>Paperix</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#paperix" legacyBehavior>
+              <h3>Paperpix</h3>
+              <p>Paper Presentation</p>
+              <Link href="/rules#paperpix" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -36,9 +36,9 @@ const TechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>03</h2>
-              <h3>Quizzy</h3>
-              <p>Unlocking knowledge at the speed of thought</p>
-              <Link href="/rules#quizzy" legacyBehavior>
+              <h3>Bewilder</h3>
+              <p>Quiz</p>
+              <Link href="/rules#bewilder" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -49,9 +49,9 @@ const TechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>04</h2>
-              <h3>Color Castel</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#color-castel" legacyBehavior>
+              <h3>Color Castle</h3>
+              <p>Web Design</p>
+              <Link href="/rules#color-castle" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -63,7 +63,7 @@ const TechnicalEvents = () => {
             <div className={styles.content}>
               <h2>05</h2>
               <h3>Andro Design</h3>
-              <p>Bring out the best</p>
+              <p>Android UI Design</p>
               <Link href="/rules#andro-design" legacyBehavior>
                 <a>Read More</a>
               </Link>

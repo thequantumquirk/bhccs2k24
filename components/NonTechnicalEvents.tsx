@@ -11,9 +11,9 @@ const NonTechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>01</h2>
-              <h3>The Brain Hunt</h3>
-              <p>Clear vision holds the key</p>
-              <Link href="/rules#brain-hunt" legacyBehavior>
+              <h3>Hustle Hour</h3>
+              <p>Treasure Hunt</p>
+              <Link href="/rules#hustle-hour" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -24,9 +24,9 @@ const NonTechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>02</h2>
-              <h3>Connectiva</h3>
-              <p>Not just nearly connect, but really connect</p>
-              <Link href="/rules#connectiva" legacyBehavior>
+              <h3>Pix Link</h3>
+              <p>Connection</p>
+              <Link href="/rules#pix-link" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -37,9 +37,9 @@ const NonTechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>03</h2>
-              <h3>Portmantaeu</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#portmantaeu" legacyBehavior>
+              <h3>Times Up</h3>
+              <p>Just a Minute</p>
+              <Link href="/rules#times-up" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -50,9 +50,9 @@ const NonTechnicalEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>04</h2>
-              <h3>Dumb C</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#dumb-c" legacyBehavior>
+              <h3>Dumbstruck</h3>
+              <p>Dumb Charades</p>
+              <Link href="/rules#dumbstruck" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>

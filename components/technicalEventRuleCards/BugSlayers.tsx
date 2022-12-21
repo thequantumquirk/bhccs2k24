@@ -2,7 +2,7 @@ import React from "react";
 
 const BugSlayers = () => {
   return (
-    <div>
+    <div id="bug-slayers">
       <h3>1. Bug Slayers (Debugging):-</h3>
       <ul>
         <li>Two members per team.</li>

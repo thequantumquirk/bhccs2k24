@@ -10,9 +10,9 @@ const OnlineEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>01</h2>
-              <h3>Logo Design</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#logo-design" legacyBehavior>
+              <h3>Insignia</h3>
+              <p>Logo Design</p>
+              <Link href="/rules#insignia" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -23,9 +23,9 @@ const OnlineEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>02</h2>
-              <h3>Multimedia</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#multimedia" legacyBehavior>
+              <h3>Media Raft</h3>
+              <p>Multimedia</p>
+              <Link href="/rules#media-raft" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -36,9 +36,9 @@ const OnlineEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>03</h2>
-              <h3>Meme Creation</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#meme-creation" legacyBehavior>
+              <h3>Craze-Fabr</h3>
+              <p>Meme Creation</p>
+              <Link href="/rules#craze-fabr" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>
@@ -49,9 +49,9 @@ const OnlineEvents = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>04</h2>
-              <h3>Capture it</h3>
-              <p>Lorem ipsum dolor sit amet. And some other contents</p>
-              <Link href="/rules#capture-it" legacyBehavior>
+              <h3>Photostratus</h3>
+              <p>Photography</p>
+              <Link href="/rules#photostratus" legacyBehavior>
                 <a>Read More</a>
               </Link>
             </div>

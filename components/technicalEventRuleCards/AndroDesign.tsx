@@ -2,7 +2,7 @@ import React from "react";
 
 const AndroDesign = () => {
   return (
-    <div>
+    <div id="andro-design">
       <h3>5. Andro Design (Android UI Design):-</h3>
       <ul>
         <li>Only Individual Participants are allowed.</li>

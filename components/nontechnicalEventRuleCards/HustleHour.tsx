@@ -2,7 +2,7 @@ import React from "react";
 
 const HustleHour = () => {
   return (
-    <div>
+    <div id="hustle-hour">
       <h3>1. Hustle Hour (Treasure Hunt):-</h3>
       <ul>
         <li>2 members per team.</li>

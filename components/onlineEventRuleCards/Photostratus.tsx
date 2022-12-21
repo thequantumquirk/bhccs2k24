@@ -2,7 +2,7 @@ import React from "react";
 
 const Photostratus = () => {
   return (
-    <div>
+    <div id="photostratus">
       <h3>3. Photostratus (Photography):-</h3>
       <ul>
         <li>Only one photo is allowed per participant.</li>

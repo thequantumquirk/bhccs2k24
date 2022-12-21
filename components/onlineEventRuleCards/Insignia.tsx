@@ -2,7 +2,7 @@ import React from "react";
 
 const Insignia = () => {
   return (
-    <div>
+    <div id="insignia">
       <h3>4. Insignia (Logo Designing):-</h3>
       <ul>
         <li>Logo can be made either using laptop/mobile.</li>

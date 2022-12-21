@@ -2,7 +2,7 @@ import React from "react";
 
 const DumbStruck = () => {
   return (
-    <div>
+    <div id="dumbstruck">
       <h3>4. Dumb Struck (Dumb Charades):-</h3>
       <ul>
         <li>2 members per team.</li>

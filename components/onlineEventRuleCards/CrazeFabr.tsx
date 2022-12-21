@@ -2,7 +2,7 @@ import React from "react";
 
 const CrazeFabr = () => {
   return (
-    <div>
+    <div id="craze-fabr">
       <h3>2. Craze-Fabr (Memes Creation):-</h3>
       <ul>
         <li>

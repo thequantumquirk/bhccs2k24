@@ -2,7 +2,7 @@ import React from "react";
 
 const MediaRaft = () => {
   return (
-    <div>
+    <div id="media-raft">
       <h3>1. Media Raft (Multimedia):-</h3>
       <ul>
         <li>Videos must be based on the given topics.</li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Bewilder = () => {
   return (
-    <div>
+    <div id="bewilder">
       <h3>3. Bewilder (Quiz):-</h3>
       <ul>
         <li>Two members per team.</li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Paperix = () => {
   return (
-    <div>
+    <div id="paperpix">
       <h3>2. Paperpix (Paper Presentation):-</h3>
       <ul>
         <li>Two members per team.</li>
