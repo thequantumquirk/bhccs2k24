@@ -9,10 +9,7 @@ import Registration from "../components/Registration";
 import TechnicalEvents from "../components/TechnicalEvents";
 
 export default function Home() {
-  const links = [
-    { link: "#", label: "Time Schedule" },
-    { link: "https://bhc.edu.in/about1.php", label: "About Us" },
-  ];
+  const links = [{ link: "https://bhc.edu.in/about1.php", label: "About Us" }];
 
   return (
     <div>

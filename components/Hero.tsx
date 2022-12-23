@@ -32,7 +32,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    fontWeight: 800,
+    fontWeight: 500,
     fontSize: 30,
     letterSpacing: -1,
     paddingLeft: theme.spacing.md,
@@ -180,6 +180,14 @@ const Hero = () => {
             size="lg"
           >
             View Rules
+          </Button>
+
+          <Button
+            onClick={() => router.push("/timeSchedule")}
+            className={cx(classes.control, classes.secondaryControl)}
+            size="lg"
+          >
+            Time Schedule
           </Button>
         </div>
       </div>
