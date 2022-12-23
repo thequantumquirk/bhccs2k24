@@ -6,7 +6,9 @@
 
   @media (max-width: 520px) {
     .neonText {
-        font-size: 30px;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
   }
 

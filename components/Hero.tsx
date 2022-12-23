@@ -21,7 +21,7 @@ const useStyles = createStyles((theme) => ({
     backgroundPosition: "center",
 
     "@media (max-width: 520px)": {
-      paddingTop: 80,
+      paddingTop: 40,
       paddingBottom: 50,
     },
   },
@@ -60,7 +60,7 @@ const useStyles = createStyles((theme) => ({
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 
     "@media (max-width: 520px)": {
-      fontSize: 35,
+      fontSize: 45,
     },
   },
 
