@@ -1,3 +1,4 @@
+import { Tooltip } from "@mantine/core";
 import { CalendarEvent } from "tabler-icons-react";
 import styles from "../styles/Registration.module.css";
 
@@ -16,7 +17,12 @@ const Registration = () => {
 
         <div className={styles.regRuleContainer}>
           <p>Registration can only be done online</p>
-          <a href="https://forms.gle/RhncJLaep6g2PYw87">Register</a>
+          <Tooltip label="Registration will be opened soon">
+            {/* <a href="https://forms.gle/RhncJLaep6g2PYw87">Register</a> */}
+            <a href="" onClick={(e) => e.preventDefault()}>
+              Register
+            </a>
+          </Tooltip>
         </div>
       </div>
     </div>

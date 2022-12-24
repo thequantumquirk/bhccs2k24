@@ -6,6 +6,7 @@ import {
   Overlay,
   createStyles,
   Image,
+  Tooltip,
 } from "@mantine/core";
 import { useRouter } from "next/router";
 import heroStyles from "../styles/Hero.module.css";
@@ -166,14 +167,21 @@ const Hero = () => {
         </Container>
 
         <div className={classes.controls}>
-          <Button
-            className={classes.control}
-            onClick={() => router.push("https://forms.gle/RhncJLaep6g2PYw87")}
-            variant="white"
-            size="lg"
-          >
-            Register
-          </Button>
+          <Tooltip label="Registration will be opened soon">
+            <Button
+              data-disabled
+              sx={{ "&[data-disabled]": { pointerEvents: "all" } }}
+              className={classes.control}
+              onClick={(event) => {
+                event.preventDefault();
+                // router.push("https://forms.gle/RhncJLaep6g2PYw87");
+              }}
+              variant="white"
+              size="lg"
+            >
+              Register
+            </Button>
+          </Tooltip>
           <Button
             onClick={() => router.push("/rules")}
             className={cx(classes.control, classes.secondaryControl)}
