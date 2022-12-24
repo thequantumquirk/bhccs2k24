@@ -172,7 +172,7 @@ const Hero = () => {
               data-disabled
               sx={{ "&[data-disabled]": { pointerEvents: "all" } }}
               className={classes.control}
-              onClick={(event) => {
+              onClick={(event: any) => {
                 event.preventDefault();
                 // router.push("https://forms.gle/RhncJLaep6g2PYw87");
               }}
