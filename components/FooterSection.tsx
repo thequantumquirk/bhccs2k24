@@ -53,15 +53,22 @@ export function FooterSection() {
     );
   };
 
-  const handleDownlodRules = () => {
+  const handleDownloadRules = () => {
     router.push(
       "https://drive.google.com/file/d/105laO1_cPWSM5YzmaqpRwCss0AvihxPp/view?usp=share_link"
     );
   };
 
   const handleDownloadTimeSchedule = () => {
+    // router.push(
+    //   "https://drive.google.com/file/d/1JMvF6odm6ccqe_9hkZCLHF0ZvYYyyLOc/view?usp=share_link"
+    // );
+    router.push("/timeSchedule");
+  };
+
+  const handleGPSCamDemo = () => {
     router.push(
-      "https://drive.google.com/file/d/1JMvF6odm6ccqe_9hkZCLHF0ZvYYyyLOc/view?usp=share_link"
+      "https://drive.google.com/file/d/1MZ_mRiCxBThIbUuAaj6pDRx66s4HoIvT/view?usp=share_link"
     );
   };
 
@@ -94,9 +101,18 @@ export function FooterSection() {
         variant="gradient"
         gradient={{ from: "orange", to: "red", deg: 105 }}
         leftIcon={<Download />}
-        onClick={handleDownlodRules}
+        onClick={handleDownloadRules}
       >
         Rules
+      </Button>
+      <Button
+        className={classes.downloadButton}
+        variant="gradient"
+        gradient={{ from: "#ed6ea0", to: "#ec8c69", deg: 35 }}
+        leftIcon={<Download />}
+        onClick={handleGPSCamDemo}
+      >
+        GPS Camera Demo
       </Button>
     </>
   );
