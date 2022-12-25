@@ -9,7 +9,9 @@ import {
   Tooltip,
 } from "@mantine/core";
 import { useRouter } from "next/router";
+import { useState } from "react";
 import heroStyles from "../styles/Hero.module.css";
+import RegistrationOpenModal from "./RegistrationOpenModal";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -119,6 +121,18 @@ const useStyles = createStyles((theme) => ({
 const Hero = () => {
   const { classes, cx } = useStyles();
   const router = useRouter();
+  const [opened, setOpened] = useState(false);
+
+  const handleRegister = (event: any) => {
+    event.preventDefault();
+    setOpened(true);
+    // router.push("https://forms.gle/RhncJLaep6g2PYw87");
+  };
+
+  const handleViewRules = (event: any) => {
+    event.preventDefault();
+    router.push("/rules");
+  };
 
   return (
     <div className={classes.wrapper}>
@@ -146,7 +160,6 @@ const Hero = () => {
           Department of Computer Science (SHIFT - I)
         </Title>
         <Title className={classes.title}>proudly presents</Title>
-
         <Title className={classes.title}>
           A State Level Technical Symposium
         </Title>
@@ -167,38 +180,24 @@ const Hero = () => {
         </Container>
 
         <div className={classes.controls}>
-          <Tooltip label="Registration will be opened soon">
-            <Button
-              data-disabled
-              sx={{ "&[data-disabled]": { pointerEvents: "all" } }}
-              className={classes.control}
-              onClick={(event: any) => {
-                event.preventDefault();
-                // router.push("https://forms.gle/RhncJLaep6g2PYw87");
-              }}
-              variant="white"
-              size="lg"
-            >
-              Register
-            </Button>
-          </Tooltip>
           <Button
-            onClick={() => router.push("/rules")}
+            className={classes.control}
+            onClick={handleRegister}
+            variant="white"
+            size="lg"
+          >
+            Register
+          </Button>
+          <Button
+            onClick={handleViewRules}
             className={cx(classes.control, classes.secondaryControl)}
             size="lg"
           >
             View Rules
           </Button>
-
-          <Button
-            onClick={() => router.push("/timeSchedule")}
-            className={cx(classes.control, classes.secondaryControl)}
-            size="lg"
-          >
-            Time Schedule
-          </Button>
         </div>
       </div>
+      <RegistrationOpenModal opened={opened} setOpened={setOpened} />
     </div>
   );
 };

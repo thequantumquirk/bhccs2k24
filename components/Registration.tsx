@@ -1,8 +1,16 @@
-import { Tooltip } from "@mantine/core";
+import { useState } from "react";
 import { CalendarEvent } from "tabler-icons-react";
 import styles from "../styles/Registration.module.css";
+import RegistrationOpenModal from "./RegistrationOpenModal";
 
 const Registration = () => {
+  const [opened, setOpened] = useState(false);
+
+  function handleRegister(event: any) {
+    event.preventDefault();
+    setOpened(true);
+  }
+
   return (
     <div className={styles.parent}>
       <h2 className={styles.eventHeader}>Register</h2>
@@ -17,14 +25,15 @@ const Registration = () => {
 
         <div className={styles.regRuleContainer}>
           <p>Registration can only be done online</p>
-          <Tooltip label="Registration will be opened soon">
-            {/* <a href="https://forms.gle/RhncJLaep6g2PYw87">Register</a> */}
-            <a href="" onClick={(e) => e.preventDefault()}>
-              Register
-            </a>
-          </Tooltip>
+          {/* <Tooltip label="Registration will be opened soon"> */}
+          {/* <a href="https://forms.gle/RhncJLaep6g2PYw87">Register</a> */}
+          <a href="" onClick={handleRegister}>
+            Register
+          </a>
+          {/* </Tooltip> */}
         </div>
       </div>
+      <RegistrationOpenModal opened={opened} setOpened={setOpened} />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import { Header } from "@mantine/core";
 import Head from "next/head";
 import ContactUs from "../components/ContactUs";
+import { FooterSection } from "../components/FooterSection";
 import { HeaderMenu } from "../components/HeaderMenu";
 import Hero from "../components/Hero";
 import NonTechnicalEvents from "../components/NonTechnicalEvents";
@@ -28,6 +29,7 @@ export default function Home() {
       <OnlineEvents />
       <Registration />
       <ContactUs />
+      <FooterSection />
     </div>
   );
 }
