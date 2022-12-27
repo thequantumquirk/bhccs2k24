@@ -87,7 +87,7 @@ export function FooterSection() {
       >
         Brochure
       </Button>
-      <Button
+      {/* <Button
         className={classes.downloadButton}
         variant="gradient"
         gradient={{ from: "teal", to: "lime", deg: 105 }}
@@ -95,7 +95,7 @@ export function FooterSection() {
         onClick={handleDownloadTimeSchedule}
       >
         Time Schedule
-      </Button>
+      </Button> */}
       <Button
         className={classes.downloadButton}
         variant="gradient"
