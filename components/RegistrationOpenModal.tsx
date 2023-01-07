@@ -29,6 +29,7 @@ export default function RegistrationOpenModal({
         opened={opened}
         onClose={() => setOpened(false)}
         title="Instructions"
+        size={"lg"}
       >
         <ul>
           <li style={{ marginTop: "10px" }}>

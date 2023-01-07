@@ -22,16 +22,6 @@ const Registration = () => {
             <p>11 Jan, 2023</p>
           </div>
         </div>
-
-        <div className={styles.regRuleContainer}>
-          <p>Registration can only be done online</p>
-          {/* <Tooltip label="Registration will be opened soon"> */}
-          {/* <a href="https://forms.gle/RhncJLaep6g2PYw87">Register</a> */}
-          <a href="" onClick={handleRegister}>
-            Register
-          </a>
-          {/* </Tooltip> */}
-        </div>
       </div>
       <RegistrationOpenModal opened={opened} setOpened={setOpened} />
     </div>

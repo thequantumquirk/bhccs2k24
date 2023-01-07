@@ -6,6 +6,7 @@ import { HeaderMenu } from "../components/HeaderMenu";
 import Hero from "../components/Hero";
 import NonTechnicalEvents from "../components/NonTechnicalEvents";
 import OnlineEvents from "../components/OnlineEvents";
+import OnSpotRegistrationModal from "../components/OnSpotRegistrationModal";
 import Registration from "../components/Registration";
 import TechnicalEvents from "../components/TechnicalEvents";
 
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
       <HeaderMenu links={links} />
       <Hero />
+      <OnSpotRegistrationModal />
       <TechnicalEvents />
       <NonTechnicalEvents />
       <OnlineEvents />
