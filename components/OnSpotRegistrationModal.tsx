@@ -23,11 +23,16 @@ const OnSpotRegistrationModal = () => {
                 <Text size="lg" weight={500} >
                     On Spot Registration is allowed
                 </Text>
-                <Text size="md" color="#6F7378" mt={5}>
+                <Text size="md" color="#6F7378" mt={10}>
                     Registration can be done on the day of event (11 Jan, 2023).
                 </Text>
-                <Text size="md" color="#6F7378" mt={5}>
+                <Text size="md" color="#6F7378" mt={10}>
                     Registration fee is <b>Rs 100/-</b> per participant. But, lunch and participant kit <b>will not</b> be provided for those who registered on spot.
+                </Text>
+                <Text size="md" color="#6F7378" mt={10}>
+                    Participants who are planning to do on spot registration should <b>contact Student Coordinator</b> beforehand
+                    <li>📞 Mohammed Riyas - 9876543210</li>
+
                 </Text>
             </Card>
             <Card withBorder radius="md" shadow={"sm"}>
