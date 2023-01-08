@@ -18,12 +18,12 @@ const ContactUs = () => {
           <div className={styles.card}>
             <div>
               <p className={styles.name}>Mohammed Riyas</p>
-              <p className={styles.phone}>9876543210</p>
+              <p className={styles.phone}>8428764096</p>
             </div>
             <hr style={{ width: "50px" }} />
             <div>
               <p className={styles.name}>Hemadharshini</p>
-              <p className={styles.phone}>9876543210</p>
+              <p className={styles.phone}>8807087683</p>
             </div>
             <hr style={{ width: "50px" }} />
             <div>

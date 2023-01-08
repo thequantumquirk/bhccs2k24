@@ -27,11 +27,11 @@ const OnSpotRegistrationModal = () => {
                     Registration can be done on the day of event (11 Jan, 2023).
                 </Text>
                 <Text size="md" color="#6F7378" mt={10}>
-                    Registration fee is <b>Rs 100/-</b> per participant. But, lunch and participant kit <b>will not</b> be provided for those who registered on spot.
+                    On spot registration fee is <b>Rs 100/-</b> per participant. But, <b>lunch will not be provided</b> for those who registered on spot.
                 </Text>
                 <Text size="md" color="#6F7378" mt={10}>
                     Participants who are planning to do on spot registration should <b>contact Student Coordinator</b> beforehand
-                    <li>📞 Mohammed Riyas - 9876543210</li>
+                    <li>📞 Mohammed Riyas - 8428764096</li>
 
                 </Text>
             </Card>
@@ -40,7 +40,7 @@ const OnSpotRegistrationModal = () => {
                     Submission deadline for online events is extended
                 </Text>
                 <Text size="md" color="#6F7378" mt={5}>
-                    Participants of online events can submit their work till <b>12:00 pm of 10th Jan, 2023.</b>
+                    Participants of online events can submit their work till <b>9:00 pm of 9th Jan, 2023.</b>
                 </Text>
             </Card>
         </Stack>
