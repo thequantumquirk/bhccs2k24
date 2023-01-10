@@ -62,7 +62,6 @@ export function FooterSection() {
     router.push(
       "https://drive.google.com/file/d/19D7LNFPhGcBigp5kxIj682Eq4KXqWSNZ/view?usp=share_link"
     );
-    router.push("/timeSchedule");
   };
 
   const handleGPSCamDemo = () => {
