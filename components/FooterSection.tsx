@@ -9,9 +9,8 @@ import {
 
 const useStyles = createStyles((theme) => ({
   footer: {
-    borderTop: `1px solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[2]
-    }`,
+    borderTop: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[2]
+      }`,
   },
 
   inner: {
@@ -60,9 +59,9 @@ export function FooterSection() {
   };
 
   const handleDownloadTimeSchedule = () => {
-    // router.push(
-    //   "https://drive.google.com/file/d/1JMvF6odm6ccqe_9hkZCLHF0ZvYYyyLOc/view?usp=share_link"
-    // );
+    router.push(
+      "https://drive.google.com/file/d/19D7LNFPhGcBigp5kxIj682Eq4KXqWSNZ/view?usp=share_link"
+    );
     router.push("/timeSchedule");
   };
 
@@ -87,7 +86,7 @@ export function FooterSection() {
       >
         Brochure
       </Button>
-      {/* <Button
+      <Button
         className={classes.downloadButton}
         variant="gradient"
         gradient={{ from: "teal", to: "lime", deg: 105 }}
@@ -95,7 +94,7 @@ export function FooterSection() {
         onClick={handleDownloadTimeSchedule}
       >
         Time Schedule
-      </Button> */}
+      </Button>
       <Button
         className={classes.downloadButton}
         variant="gradient"
