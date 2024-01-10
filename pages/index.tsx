@@ -1,12 +1,9 @@
-import { Header } from "@mantine/core";
 import Head from "next/head";
 import ContactUs from "../components/ContactUs";
 import { FooterSection } from "../components/FooterSection";
 import { HeaderMenu } from "../components/HeaderMenu";
 import Hero from "../components/Hero";
 import NonTechnicalEvents from "../components/NonTechnicalEvents";
-import OnlineEvents from "../components/OnlineEvents";
-import OnSpotRegistrationModal from "../components/OnSpotRegistrationModal";
 import Registration from "../components/Registration";
 import TechnicalEvents from "../components/TechnicalEvents";
 
@@ -16,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Welcome to Hybernetix 2k23</title>
+        <title>Welcome to Hybernetix 2k24</title>
         <meta
           name="description"
           content="Technical Symposium being conducted by CS dept (Shift I)"
@@ -25,10 +22,9 @@ export default function Home() {
       </Head>
       <HeaderMenu links={links} />
       <Hero />
-      <OnSpotRegistrationModal />
+      {/* <OnSpotRegistrationModal /> */}
       <TechnicalEvents />
       <NonTechnicalEvents />
-      <OnlineEvents />
       <Registration />
       <ContactUs />
       <FooterSection />

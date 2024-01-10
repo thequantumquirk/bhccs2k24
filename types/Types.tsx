@@ -14,3 +14,16 @@ export interface Events {
   name: string;
   maxPerDep: number;
 }
+
+type TopicData = {
+  topicName: string;
+  items: string[];
+};
+
+export type EventData = {
+  name: string;
+  description: string;
+  id: number;
+  slug: string;
+  topicsData: TopicData[];
+};

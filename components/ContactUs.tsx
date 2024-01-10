@@ -10,33 +10,24 @@ const ContactUs = () => {
           <h4>Staff Coordinators</h4>
           <div className={styles.card}>
             <p className={styles.name}>Dr. Ramah Sivakumar</p>
-            <p className={styles.name}>Prof.L.Priscilla</p>
-            <p className={styles.name}>Prof.G.Lavanya</p>
+            <p className={styles.name}>Dr. P. Velmurugan</p>
           </div>
 
           <h4>Student Coordinators</h4>
           <div className={styles.card}>
             <div>
-              <p className={styles.name}>Mohammed Riyas</p>
-              <p className={styles.phone}>8428764096</p>
+              <p className={styles.name}>D. Calvin</p>
+              <p className={styles.phone}>6374370428</p>
             </div>
             <hr style={{ width: "50px" }} />
             <div>
-              <p className={styles.name}>Hemadharshini</p>
-              <p className={styles.phone}>8807087683</p>
+              <p className={styles.name}>M. Monika</p>
+              <p className={styles.phone}>9360232815</p>
             </div>
             <hr style={{ width: "50px" }} />
             <div>
-              <p className={styles.name}>S.Dinesh</p>
-              <p className={styles.phone}>9952702570</p>
-            </div>
-          </div>
-
-          <h4>Student Coordinator (Online Events)</h4>
-          <div className={styles.card}>
-            <div>
-              <p className={styles.name}>R.Devi Praseetha</p>
-              <p className={styles.phone}>7094310692</p>
+              <p className={styles.name}>R.G. Vedhessh</p>
+              <p className={styles.phone}>9489411005</p>
             </div>
           </div>
         </div>

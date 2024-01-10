@@ -19,7 +19,7 @@ const Registration = () => {
           <p>The Symposium will be held on</p>
           <div className={styles.eventDateContainer}>
             <CalendarEvent color={"#03a9f4"} className={styles.calendarIcon} />
-            <p>11 Jan, 2023</p>
+            <p>12 Feb, 2024</p>
           </div>
         </div>
       </div>

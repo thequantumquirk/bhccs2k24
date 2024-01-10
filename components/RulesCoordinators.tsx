@@ -1,5 +1,3 @@
-import React from "react";
-
 const RulesCoordinators = () => {
   return (
     <div>
@@ -8,22 +6,15 @@ const RulesCoordinators = () => {
         <h3>Staff Coordinators</h3>
         <ul>
           <li>Dr.Ramah Sivakumar</li>
-          <li>Prof.L.Prisilla</li>
-          <li>Prof.G.Lavanya</li>
+          <li>Dr. P. Velmurugan</li>
         </ul>
       </div>
       <div>
         <h3>Student Coordinators</h3>
         <ul>
-          <li>N.Mohamed Riyas - 8428764096</li>
-          <li>J.Hemadarshini - 8807087683</li>
-          <li>S.Dinesh - 9952702570</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Online Events Student Coordinator</h3>
-        <ul>
-          <li>R. Devi Praseetha - 7094310692</li>
+          <li>D. Calvin - 6374370428</li>
+          <li>M. Monika - 9360232815</li>
+          <li>R.G. Vedhessh - 9489411005</li>
         </ul>
       </div>
     </div>

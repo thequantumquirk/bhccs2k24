@@ -1,18 +1,14 @@
 import {
   createStyles,
   Header,
-  Menu,
   Group,
-  Center,
   Burger,
   Container,
-  Title,
   Transition,
   Paper,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import Image from "next/image";
-import { ChevronDown, FaceId } from "tabler-icons-react";
 // import { MantineLogo } from "@mantine/ds";
 
 const HEADER_HEIGHT = 60;
@@ -120,7 +116,7 @@ export function HeaderMenu({ links }: HeaderSearchProps) {
           >
             <Image src={"/bhclogo.png"} alt="BHC logo" width={40} height={50} />
             <h1 style={{ marginLeft: "20px", fontSize: "20px", color: "#fff" }}>
-              Hybernetix 2k23
+              Hybernetix 2k24
             </h1>
           </div>
           <Group spacing={5} className={classes.links}>

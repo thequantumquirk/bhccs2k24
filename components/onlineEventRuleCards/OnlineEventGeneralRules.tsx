@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const OnlineEventGeneralRules = () => {
   return (
@@ -63,11 +63,11 @@ const OnlineEventGeneralRules = () => {
         <li>Judge’s decision will be final and no arguments will be heard.</li>
         <div>
           <p>Scan here for GPS Map Camera Demo</p>
-          <img
+          <Image
             src="GPS camera demo.PNG"
             alt="QR GPS"
-            width={"150px"}
-            height={"150px"}
+            width={150}
+            height={150}
           />
         </div>
       </ul>

@@ -1,12 +1,10 @@
 import {
   Title,
-  Text,
   Container,
   Button,
   Overlay,
   createStyles,
   Image,
-  Tooltip,
 } from "@mantine/core";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -176,7 +174,7 @@ const Hero = () => {
             fontSize: 50,
           }}
         >
-          <h1 className={heroStyles.neonText}>Hybernetix 2k23</h1>
+          <h1 className={heroStyles.neonText}>Hybernetix 2k24</h1>
         </Container>
 
         <div className={classes.controls}>
