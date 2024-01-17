@@ -251,7 +251,7 @@ export const nonTechnicalEvents: EventData[] = [
         topicName: "Rules",
         items: [
           "Participants are asked to be on time to the allocated venue; else, the team will be disqualified.",
-          "Only 4 participants per team.",
+          "Only 2 participants per team.",
           "3 Rounds will be conducted.",
           "All team members must participate.",
           "The answers should not be discussed with teammates.",
