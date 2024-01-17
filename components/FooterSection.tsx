@@ -1,16 +1,12 @@
-import { createStyles, Anchor, Group, ActionIcon, Button } from "@mantine/core";
-import Router, { useRouter } from "next/router";
-import {
-  BrandTwitter,
-  BrandYoutube,
-  BrandInstagram,
-  Download,
-} from "tabler-icons-react";
+import { createStyles, Group, ActionIcon, Button } from "@mantine/core";
+import { useRouter } from "next/router";
+import { BrandInstagram, Download } from "tabler-icons-react";
 
 const useStyles = createStyles((theme) => ({
   footer: {
-    borderTop: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[2]
-      }`,
+    borderTop: `1px solid ${
+      theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[2]
+    }`,
   },
 
   inner: {
@@ -119,9 +115,9 @@ export function FooterSection() {
     <div className={classes.footer}>
       <div className={classes.inner}>
         {/* <MantineLogo size={28} /> */}
-        <h3>Hybernetix</h3>
+        <h3>Tech-Pinnacle</h3>
 
-        <Group className={classes.links}>{items}</Group>
+        {/* <Group className={classes.links}>{items}</Group> */}
 
         <Group spacing="xs" position="right" noWrap>
           <ActionIcon

@@ -13,7 +13,7 @@ const Rules = () => {
         margin: "auto",
       }}
     >
-      <h1 className="pageTitle">Hybernetix 2k24 - Event Rules</h1>
+      <h1 className="pageTitle">Tech-Pinnacle 2k24 - Event Rules</h1>
       <div>
         <h2>Technical Events</h2>
         {technicalEvents.map((event: EventData) => (

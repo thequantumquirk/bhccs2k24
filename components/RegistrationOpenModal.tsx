@@ -1,6 +1,5 @@
 import { Button, Modal } from "@mantine/core";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
 
 export default function RegistrationOpenModal({
   opened,
@@ -20,7 +19,9 @@ export default function RegistrationOpenModal({
   const router = useRouter();
 
   const handleContinueClick = () => {
-    router.push("https://forms.gle/RhncJLaep6g2PYw87");
+    router.push(
+      "https://docs.google.com/forms/d/e/1FAIpQLSc47-pobqRnV34YtZPW3hoap4XZEvJMadPN-TT3AxWJuv0KYg/viewform"
+    );
   };
 
   return (

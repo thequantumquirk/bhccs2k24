@@ -116,7 +116,7 @@ export function HeaderMenu({ links }: HeaderSearchProps) {
           >
             <Image src={"/bhclogo.png"} alt="BHC logo" width={40} height={50} />
             <h1 style={{ marginLeft: "20px", fontSize: "20px", color: "#fff" }}>
-              Hybernetix 2k24
+              Tech-Pinnacle 2k24
             </h1>
           </div>
           <Group spacing={5} className={classes.links}>

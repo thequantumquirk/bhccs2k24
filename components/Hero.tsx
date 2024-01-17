@@ -174,7 +174,7 @@ const Hero = () => {
             fontSize: 50,
           }}
         >
-          <h1 className={heroStyles.neonText}>Hybernetix 2k24</h1>
+          <h1 className={heroStyles.neonText}>Tech-Pinnacle 2k24</h1>
         </Container>
 
         <div className={classes.controls}>
