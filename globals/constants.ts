@@ -228,7 +228,7 @@ export const nonTechnicalEvents: EventData[] = [
         topicName: "Description",
         items: [
           "3 members per team.",
-          "Lip movement and sign languages are not allowed.",
+          "If Lip movement and sign languages are done, The team will be disqualified",
           "Prelims will be conducted.",
           "4 teams will be selected for finals.",
         ],
