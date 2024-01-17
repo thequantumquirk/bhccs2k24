@@ -17,8 +17,9 @@ const useStyles = createStyles((theme) => ({
     paddingTop: 60,
     paddingBottom: 40,
     backgroundImage:
-      "url(https://unsplash.com/photos/vEE00Hx5d0Q/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY4NTE1Njg2&force=true&w=1920)",
-    backgroundSize: "cover",
+      "url(https://ik.imagekit.io/vrx5mduvl/background.png?updatedAt=1705493408469)",
+    backgroundSize: "100% 100%",
+
     backgroundPosition: "center",
 
     "@media (max-width: 520px)": {
@@ -134,7 +135,7 @@ const Hero = () => {
 
   return (
     <div className={classes.wrapper}>
-      <Overlay color="#000" opacity={0.65} zIndex={1} />
+      <Overlay color="#222" opacity={0.4} zIndex={1} />
 
       <div className={classes.inner}>
         <div
