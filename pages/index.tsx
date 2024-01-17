@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Welcome to Hybernetix 2k24</title>
+        <title>Welcome to Tech-Pinacle 2k24</title>
         <meta
           name="description"
           content="Technical Symposium being conducted by CS dept (Shift I)"
