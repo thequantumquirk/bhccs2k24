@@ -7,12 +7,6 @@ const ContactUs = () => {
       <div className={styles.container}>
         <p>If you need any clarifications, feel free to contact us.</p>
         <div className={styles.cardContainer}>
-          <h4>Staff Coordinators</h4>
-          <div className={styles.card}>
-            <p className={styles.name}>Dr. Ramah Sivakumar</p>
-            <p className={styles.name}>Dr. P. Velmurugan</p>
-          </div>
-
           <h4>Student Coordinators</h4>
           <div className={styles.card}>
             <div>
@@ -29,6 +23,11 @@ const ContactUs = () => {
               <p className={styles.name}>R.G. Vedhessh</p>
               <p className={styles.phone}>9489411005</p>
             </div>
+          </div>
+          <h4>Staff Coordinators</h4>
+          <div className={styles.card}>
+            <p className={styles.name}>Dr. Ramah Sivakumar</p>
+            <p className={styles.name}>Dr. P. Velmurugan</p>
           </div>
         </div>
       </div>
