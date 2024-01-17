@@ -67,7 +67,7 @@ export function FooterSection() {
   };
 
   const handleInstaClick = () => {
-    router.push("https://instagram.com/hybernetix_2k23?igshid=OGQ2MjdiOTE=");
+    router.push("https://www.instagram.com/tech_pinnacle_2k24/");
   };
 
   const items = (
