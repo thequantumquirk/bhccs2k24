@@ -46,10 +46,6 @@ export default function RegistrationOpenModal({
             (Including both UG and PG).
           </li>
           <li style={{ marginTop: "10px" }}>
-            Students can participate in one or two events (which can be
-            Technical or Non-Technical).
-          </li>
-          <li style={{ marginTop: "10px" }}>
             Each participant can register in 2 events. Which can be One
             Technical and One-Non Technical...
           </li>
