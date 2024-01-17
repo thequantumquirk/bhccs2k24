@@ -5,7 +5,7 @@ export const RulesSection = ({ event }: { event: EventData }) => {
     event.description ? "(" + event.description + ")" : ""
   }`;
   return (
-    <div id={event.id.toString()}>
+    <div id={event.slug.toString()}>
       <h3>{eventTitle}:-</h3>
       {event.topicsData.map((topic, id) => (
         <div key={id}>
