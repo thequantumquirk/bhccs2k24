@@ -264,3 +264,20 @@ export const nonTechnicalEvents: EventData[] = [
     ],
   },
 ];
+
+export const generalRules = [
+  "We would like to invite UG & PG Students of (CS/APPLICATION/ IT /CSE /ITE OTHER COMPUTER RELATED DEPT) for various events.",
+  "Register on or before Feb 13, 2024. No On-Spot registration.",
+  "Registration fee per student is Rs: 200/-.",
+  "Only 15 members are allowed per department (Including both UG and PG).",
+  "Participants must bring their college ID card.",
+  "Non-registered participants are not allowed. Only Student Representative Staffs are allowed to accompany the participants if needed.",
+  "Students can participate in one or two event activities (which can be one technical and non-technical).",
+  "Students must come with formal dress code.",
+  "All event details will be conveyed through WhatsApp broadcast messages. So please make sure that you bring a smartphone with a good internet connection.",
+  "Students must not engage in any malpractices or violations. Otherwise, the team will be disqualified.",
+  "Participants must be present on or before 8.30 am in the college premises. Food and refreshments will be provided for all the registered students.",
+  "Certificates will be provided to all participants.",
+  "Overall rewards will be awarded based on the performance of the individual departments and not based on the college.",
+  "The decision of the Judges’ is final.",
+];
