@@ -6,7 +6,7 @@ const RulesCoordinators = () => {
         <h3>Staff Coordinators</h3>
         <ul>
           <li>Dr.Ramah Sivakumar</li>
-          <li>Dr. P. Velmurugan</li>
+          <li>Prof. P. Velmurugan</li>
         </ul>
       </div>
       <div>

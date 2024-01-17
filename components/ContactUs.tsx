@@ -27,7 +27,7 @@ const ContactUs = () => {
           <h4>Staff Coordinators</h4>
           <div className={styles.card}>
             <p className={styles.name}>Dr. Ramah Sivakumar</p>
-            <p className={styles.name}>Dr. P. Velmurugan</p>
+            <p className={styles.name}>Prof. P. Velmurugan</p>
           </div>
         </div>
       </div>
