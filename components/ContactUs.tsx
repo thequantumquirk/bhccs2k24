@@ -26,8 +26,15 @@ const ContactUs = () => {
           </div>
           <h4>Staff Coordinators</h4>
           <div className={styles.card}>
-            <p className={styles.name}>Dr. Ramah Sivakumar</p>
-            <p className={styles.name}>Prof. P. Velmurugan</p>
+            <p className={styles.name}>
+              Dr. Ramah Sivakumar - Assistant Professor
+            </p>
+            <p className={styles.phone}>9600779272</p>
+            <hr style={{ width: "50px" }} />
+            <p className={styles.name}>
+              Prof. P. Velmurugan - Assistant Professor
+            </p>
+            <p className={styles.phone}>8110982923</p>
           </div>
         </div>
       </div>
