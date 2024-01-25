@@ -267,7 +267,7 @@ export const nonTechnicalEvents: EventData[] = [
 
 export const generalRules = [
   "We would like to invite UG & PG Students of (CS/APPLICATION/ IT /CSE /ITE OTHER COMPUTER RELATED DEPT) for various events.",
-  "Register on or before Feb 13, 2024. No On-Spot registration.",
+  "Register on or before Feb 7, 2024. No On-Spot registration.",
   "Registration fee per student is Rs: 200/-.",
   "Only 15 members are allowed per department (Including both UG and PG).",
   "Participants must bring their college ID card.",

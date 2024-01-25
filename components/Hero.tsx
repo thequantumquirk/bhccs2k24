@@ -195,6 +195,10 @@ const Hero = () => {
             View Rules
           </Button>
         </div>
+        <h3 style={{ textAlign: "center" }}>
+          LAST DATE FOR THE REGISTRATION IS ON [07/02/2024] Register within the
+          end date
+        </h3>
       </div>
       <RegistrationOpenModal opened={opened} setOpened={setOpened} />
     </div>

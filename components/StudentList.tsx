@@ -1,8 +1,8 @@
 import { ActionIcon, Badge, ScrollArea, Table } from "@mantine/core";
 import { useState } from "react";
-import { Edit, Trash } from "tabler-icons-react";
-import { Student, Events } from "../types/Types";
+import { Student } from "../types/Types";
 import StudentFormModal from "./StudentFormModal";
+import { IconTrash } from "@tabler/icons-react";
 
 const StudentList = () => {
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
@@ -67,7 +67,7 @@ const StudentList = () => {
             variant="subtle"
             style={{ display: "inline", marginLeft: "20px" }}
           >
-            <Trash />
+            <IconTrash />
           </ActionIcon>
         </div>
       </td>

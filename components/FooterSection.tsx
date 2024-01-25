@@ -1,12 +1,18 @@
 import { createStyles, Group, ActionIcon, Button } from "@mantine/core";
 import { useRouter } from "next/router";
-import { BrandInstagram, Download } from "tabler-icons-react";
+import {
+  IconBrandGoogleMaps,
+  IconBrandInstagram,
+  IconDownload,
+  IconFileInfo,
+} from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({
   footer: {
     borderTop: `1px solid ${
       theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[2]
     }`,
+    padding: "0 5rem",
   },
 
   inner: {
@@ -43,9 +49,7 @@ export function FooterSection() {
   const router = useRouter();
 
   const handleDownloadBrochure = () => {
-    router.push(
-      "https://drive.google.com/file/d/1uRNvRRQ4psIOsZK7iP9KIaTKYKV8lisI/view?usp=share_link"
-    );
+    router.push("https://www.hostize.com/d/sfUWmNPJYJ/file.pdf");
   };
 
   const handleDownloadRules = () => {
@@ -67,7 +71,11 @@ export function FooterSection() {
   };
 
   const handleInstaClick = () => {
-    router.push("https://www.instagram.com/tech_pinnacle_2k24/");
+    window.open("https://www.instagram.com/tech_pinnacle_2k24/", "_blank");
+  };
+
+  const handleMapsClick = () => {
+    window.open("https://maps.app.goo.gl/vrb21u9nvpc3v3cC8", "_blank");
   };
 
   const items = (
@@ -76,7 +84,7 @@ export function FooterSection() {
         className={classes.downloadButton}
         variant="gradient"
         gradient={{ from: "indigo", to: "cyan" }}
-        leftIcon={<Download />}
+        leftIcon={<IconDownload />}
         onClick={handleDownloadBrochure}
       >
         Brochure
@@ -85,7 +93,7 @@ export function FooterSection() {
         className={classes.downloadButton}
         variant="gradient"
         gradient={{ from: "teal", to: "lime", deg: 105 }}
-        leftIcon={<Download />}
+        leftIcon={<IconDownload />}
         onClick={handleDownloadTimeSchedule}
       >
         Time Schedule
@@ -94,7 +102,7 @@ export function FooterSection() {
         className={classes.downloadButton}
         variant="gradient"
         gradient={{ from: "orange", to: "red", deg: 105 }}
-        leftIcon={<Download />}
+        leftIcon={<IconDownload />}
         onClick={handleDownloadRules}
       >
         Rules
@@ -103,7 +111,7 @@ export function FooterSection() {
         className={classes.downloadButton}
         variant="gradient"
         gradient={{ from: "#ed6ea0", to: "#ec8c69", deg: 35 }}
-        leftIcon={<Download />}
+        leftIcon={<IconDownload />}
         onClick={handleGPSCamDemo}
       >
         GPS Camera Demo
@@ -115,20 +123,65 @@ export function FooterSection() {
     <div className={classes.footer}>
       <div className={classes.inner}>
         {/* <MantineLogo size={28} /> */}
-        <h3>Tech-Pinnacle</h3>
+        <div>
+          <h3>Tech-Pinnacle</h3>
+          <p>
+            <span style={{ fontWeight: "bold" }}>Email: </span>
+            <span
+              style={{ cursor: "pointer", color: "#ADD8E6" }}
+              onClick={() => {
+                window.location.href = "mailto:techpinnacle2k24@gmail.com";
+              }}
+            >
+              techpinnacle2k24@gmail.com
+            </span>
+          </p>
+        </div>
 
         {/* <Group className={classes.links}>{items}</Group> */}
 
-        <Group spacing="xs" position="right" noWrap>
-          <ActionIcon
-            size="lg"
-            variant="default"
-            radius="xl"
-            onClick={handleInstaClick}
-          >
-            <BrandInstagram size={18} />
-          </ActionIcon>
-        </Group>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "1rem",
+            alignItems: "start",
+            justifyContent: "center",
+          }}
+        >
+          <Group spacing="xs" position="right" noWrap>
+            <ActionIcon
+              size="lg"
+              variant="default"
+              radius="xl"
+              onClick={handleInstaClick}
+            >
+              <IconBrandInstagram size={18} />
+            </ActionIcon>
+            <ActionIcon
+              size="lg"
+              variant="default"
+              radius="xl"
+              onClick={handleMapsClick}
+            >
+              <IconBrandGoogleMaps size={18} />
+            </ActionIcon>
+            <ActionIcon
+              size="lg"
+              variant="default"
+              radius="xl"
+              onClick={handleDownloadBrochure}
+            >
+              <IconFileInfo size={18} />
+            </ActionIcon>
+          </Group>
+          <div>
+            <b>Bishop Heber College</b>
+            <br /> Post Box No. 615,
+            <br /> Tiruchirappalli - 620 017
+            <br /> Tamil Nadu, South India.
+          </div>
+        </div>
       </div>
     </div>
   );

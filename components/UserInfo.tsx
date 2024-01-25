@@ -1,9 +1,12 @@
-import { createStyles, Avatar, Text, Group } from '@mantine/core';
-import { PhoneCall, At } from 'tabler-icons-react';
+import { createStyles, Text, Group } from "@mantine/core";
+import { IconAt, IconPhoneCall } from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({
   icon: {
-    color: theme.colorScheme === 'dark' ? theme.colors.dark[3] : theme.colors.gray[5],
+    color:
+      theme.colorScheme === "dark"
+        ? theme.colors.dark[3]
+        : theme.colors.gray[5],
   },
 
   name: {
@@ -19,13 +22,24 @@ interface UserInfoIconsProps {
   email: string;
 }
 
-export function UserInfo({ avatar, name, title, phone, email }: UserInfoIconsProps) {
+export function UserInfo({
+  avatar,
+  name,
+  title,
+  phone,
+  email,
+}: UserInfoIconsProps) {
   const { classes } = useStyles();
   return (
     <div>
       <Group noWrap>
         <div>
-          <Text size="md" sx={{ textTransform: 'uppercase' }} weight={700} color="dimmed">
+          <Text
+            size="md"
+            sx={{ textTransform: "uppercase" }}
+            weight={700}
+            color="dimmed"
+          >
             {title}
           </Text>
 
@@ -34,14 +48,14 @@ export function UserInfo({ avatar, name, title, phone, email }: UserInfoIconsPro
           </Text>
 
           <Group noWrap spacing={10} mt={3}>
-            <At size={16} className={classes.icon} />
+            <IconAt size={16} className={classes.icon} />
             <Text size="sm" color="dimmed">
               {email}
             </Text>
           </Group>
 
           <Group noWrap spacing={10} mt={5}>
-            <PhoneCall size={16} className={classes.icon} />
+            <IconPhoneCall size={16} className={classes.icon} />
             <Text size="sm" color="dimmed">
               {phone}
             </Text>

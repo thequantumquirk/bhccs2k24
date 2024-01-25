@@ -1,8 +1,8 @@
 import { Button, createStyles, Stack, TextInput } from "@mantine/core";
 import { useState } from "react";
-import { Plus, Send } from "tabler-icons-react";
 import StudentFormModal from "../components/StudentFormModal";
 import StudentList from "../components/StudentList";
+import { IconPlus, IconSend } from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({
   container: {
@@ -95,12 +95,12 @@ export default function Register() {
             <Button
               onClick={handleAddStudent}
               variant="light"
-              leftIcon={<Plus />}
+              leftIcon={<IconPlus />}
               className={classes.control}
             >
               Add Student
             </Button>
-            <Button leftIcon={<Send />} className={classes.control}>
+            <Button leftIcon={<IconSend />} className={classes.control}>
               Submit
             </Button>
           </div>
