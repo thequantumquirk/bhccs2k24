@@ -212,7 +212,7 @@ export const nonTechnicalEvents: EventData[] = [
         items: [
           "Two members per team.",
           "Prelims will be conducted.",
-          "6 teams will be selected for finals.",
+          "3 teams will be selected for finals.",
           "Mobile phones and other electronic gadgets are prohibited.",
         ],
       },
