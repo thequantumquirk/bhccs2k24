@@ -106,7 +106,7 @@ export const technicalEvents: EventData[] = [
       {
         topicName: "Rules",
         items: [
-          "Each team will consist of 2 participants (2 teams per college).",
+          "Each team will consist of 2 participants (2 teams per department).",
           "Presenting papers must be based on the given topics.",
           "Time: 7 minutes for the presentation and 3 minutes for queries.",
           "Present their ideas within 8-10 slides. Time restrictions will be strictly followed.",
@@ -269,7 +269,7 @@ export const generalRules = [
   "We would like to invite UG & PG Students of (CS/APPLICATION/ IT /CSE /ITE OTHER COMPUTER RELATED DEPT) for various events.",
   "Register on or before Feb 7, 2024. No On-Spot registration.",
   "Registration fee per student is Rs: 200/-.",
-  "Only 15 members are allowed per department (Including both UG and PG).",
+  "Only 20 members are allowed per department (Including both UG and PG).",
   "Participants must bring their college ID card.",
   "Non-registered participants are not allowed. Only Student Representative Staffs are allowed to accompany the participants if needed.",
   "Students can participate in one or two event activities (which can be one technical and non-technical).",
