@@ -205,7 +205,8 @@ const Hero = () => {
               borderRadius: "0.25rem",
             }}
           >
-            Last Date for the Registration is <i>07/02/2024</i>
+            Last Date for the Registration has been extended to{" "}
+            <i>10/02/2024</i>
           </h1>
         </div>
       </div>
